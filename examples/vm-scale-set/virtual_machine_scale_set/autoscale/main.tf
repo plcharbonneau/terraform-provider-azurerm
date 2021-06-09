@@ -86,7 +86,7 @@ resource "azurerm_monitor_autoscale_setting" "example" {
     capacity {
       default = "${local.instance_count}"
       minimum = 0
-      maximum = 1000
+      maximum = 10
     }
 
     rule {
