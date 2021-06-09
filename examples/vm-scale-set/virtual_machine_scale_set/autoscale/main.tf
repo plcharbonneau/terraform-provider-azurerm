@@ -4,7 +4,7 @@ provider "azurerm" {
 
 
 locals {
-  instance_count = 2
+  instance_count = 3
 }
 
 resource "azurerm_resource_group" "example" {
